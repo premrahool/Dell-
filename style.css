@@ -1,0 +1,18 @@
+.search_box{  display: flex; /* justify-content: start; */  align-items: center;  position: relative;}
+.search_i{  right: 25%;}
+.w_space{  white-space: nowrap;  font-size: 18px;}
+.back-section{  background: url('images/background.webp');  height: 500px;}
+.text_primary{  color: #014479}
+.btn1 {  width: 20px;  height: 20px;  border-radius: 50px;}
+.icon i{  font-size: 25px;}
+.text{  font-weight: 200;  margin-left: 5px;}
+.bar1{  background-image: url('images/first.webp');  height: 10px;  width: 32.3%;}
+.bar2{  background-image: url('images/middle.webp');  width: 32.3%;}
+.bar3{  background-image: url('images/last.webp');  width: 32.3%;}
+.img1{  width: 33.333%;}
+.bright{  border-right: 1px solid rgb(211, 209, 209)}
+.display{  font-weight: 300;}
+.fs-4 i, span{  font-size: 15px;}
+.small-text {  font-size: 14px;}
+.padd {  line-height: 30px;}
+.last_box{  background-color: rgb(234, 237, 237);}

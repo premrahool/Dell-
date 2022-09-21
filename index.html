@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+    integrity="sha512-Oy+sz5W86PK0ZIkawrG0iv7XwWhYecM3exvUtMKNJMekGFJtVAhibhRPTpmyTj8+lJCkmWfnpxKgT2OopquBHA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <img src="images/Dell_Technologies-Logo1.png" alt="" class="img-fluid me-2">
+      <div class="w-100 search_box">
+        <input type="text" placeholder="Search Dell" class="form-control w-75 position-relative" />
+        <i class="bi bi-search position-absolute pe-2 search_i"></i>
+      </div>
+      <ul class="navbar-nav w_space">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="bi bi-arrow-up-right-circle"></i>
+            Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-cart"></i>
+            Cart
+            <i class="bi bi-chevron-down"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-person"></i>
+            Sign In
+            <i class="bi bi-chevron-down"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-globe"></i>
+            <span>IN/EN</span>
+            <i class="bi bi-chevron-down"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+
+    <nav class="navbar navbar-expand-lg navbar-light" aria-label="Fourth navbar example">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand d-flex justify-content-end" href="#">
+          <img src="images/logo2.png" alt="" class="img-fluid d-sm-block d-lg-none">
+
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
+                aria-expanded="false">Apex</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
+                aria-expanded="false">Products</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
+                aria-expanded="false">Services</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
+                aria-expanded="false">Supports</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown"
+                aria-expanded="false">About us</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid mb-3 d-sm-block d-md-none">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="d-flex w-100 search_box">
+            <input type="text" placeholder="Search Dell" class="form-control position-relative " />
+            <!-- <i class="bi bi-search position-absolute pe-2 search_icon"></i> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+
+  <div class="container-fluid pt-5 back-section">
+    <div class="container_1 d-none d-md-block">
+      <div class="row ps-3 pt-5">
+        <div class="col-lg-11 col-md-6 col-sm-11">
+          <div class="part">
+            <h4 class="text_primary">BACK TO SCHOOL OFFERS</h4>
+            <h1><i>IMMERSIVE LEARNING LIKE NEVER<br> BEFORE.</i></h1>
+            <br>
+            <p><button class="btn btn-primary btn-circle me-1 btn1"></button> <a>Get instant discount up to Rs 5,000 on
+                UPI/Net.banking, no cost EMI & more.*</a></p>
+            <button class="btn btn-dark">For Home</button>
+            <button type="button" class="btn btn-outline-secondary">For Business</button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid py-3 d-sm-block d-md-none">
+    <div class="container_1">
+      <div class="row ps-3 pt-5 justify-content-center">
+        <div class="col-lg-11 col-md-6 col-sm-11 text-center">
+          <div class="part">
+            <h4>BACK TO SCHOOL OFFERS</h4>
+            <h1><i>IMMERSIVE LEARNING LIKE NEVER<br> BEFORE.</i></h1>
+            <br>
+            <p><button class="btn btn-primary btn-circle me-1 btn1"></button> <a>Get instant discount up to Rs 5,000 on
+                UPI/Net.banking, no cost EMI & more.*</a></p>
+            <button class="btn btn-dark">For Home</button>
+            <button type="button" class="btn btn-outline-secondary">For Business</button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid mt-4">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-10">
+        <div class="row icon">
+          <div class="col-md-2 col-sm-4 text-center">
+            <i class="bi bi-laptop"></i>
+            <p>Laptops</p>
+          </div>
+          <div class="col-md-2 col-sm-4 text-center">
+            <i class="bi bi-pc-display"></i>
+            <p>Desktops</p>
+          </div>
+          <div class="col-md-2 col-sm-4 text-center">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Alienware</p>
+          </div>
+          <div class="col-md-2 col-sm-4 text-center">
+            <i class="bi bi-pc"></i>
+            <p>Workstations</p>
+          </div>
+          <div class="col-md-2 col-sm-4 text-center">
+            <i class="bi bi-display"></i>
+            <p>Monitors</p>
+          </div>
+          <div class="col-md-2 col-sm-4 text-center">
+            <i class="bi bi-hdd-rack"></i>
+            <p>Servers & Storage</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <div class="text-center gray-text-color">
+          <h4>Explore Dell Technologies</h4>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid my-2 ">
+
+    <div class="row justify-content-center">
+      <div class="col-4 bar1 me-2"></div>
+      <div class="col-4 bar2 me-2"></div>
+      <div class="col-4 bar3"></div>
+    </div>
+
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <div class="text-center gray-text-color">
+          <h4>Explore Dell Technologies</h4>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row justify-content-center mt-5">
+
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-12 mt-2">
+
+          <div class="card shadow-sm bg-black">
+            <img src="images/first.webp" alt="" class="img-fluid">
+            <div class="row justify-content-center">
+              <div class="col-12 text-highlight-slide-up-left-box d-flex justify-content-between">
+                <h6 class="text-white text">Dell Technologies APEX</h6>
+                <i class="bi bi-arrow-right me-2 text-white"></i>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-2">
+
+          <div class="card shadow-sm bg-black">
+            <img src="images/middle.webp" alt="" class="img-fluid team">
+            <div class="row team_m justify-content-center">
+              <div class="col-12 text-highlight-slide-up-left-box d-flex justify-content-between">
+                <h6 class="text-white text">Apex Data Storage Services</h6>
+                <i class="bi bi-arrow-right me-2 text-white"></i>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 mt-2">
+          <div class="card shadow-sm bg-black">
+            <img src="images/last.webp" alt="" class="img-fluid">
+            <div class="row justify-content-center">
+              <div class="col-12 text-highlight-slide-up-left-box d-flex justify-content-between">
+                <h6 class="text-white text">Discover software-driven innovation</h6>
+                <i class="bi bi-arrow-right me-2 text-white"></i>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center pt-2">
+      <div class="col-md-12">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative justify-content-end">
+          <div class="col-md-6 my-md-auto">
+            <img src="images/laptop1.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col p-4 my-auto position-static text-center ps-4">
+
+
+            <h3 class="mb-3  ps-5">Empower Their Future </h3>
+            <p>Experience immersive learning with instant discount up to ₹5,000 on UPI/Net-<br>banking & no cost EMI.
+            </p>
+            <div class="mb-4 px-lg-5 px-sm-1 mt-4">
+
+              <p>*T&C apply</p>
+              <p class="text-primary">Shop Now <a class="text-secondary mx-2">|</a> Learn More</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-light">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="row g-0 overflow-hidden flex-md-row mb-2 h-md-250 position-relative justify-content-end">
+
+          <div class="col my-auto position-static text-center">
+
+
+            <h5 class="mb-3">RETURN TO THE OFFICE </h5>
+            <h2 class="display">Maximize Productivity & Performance</h2>
+            <h5>Get no cost EMI, headset & more.</h5>
+            <div class="mb-4 px-lg-5 px-sm-1 mt-4">
+
+              <p>*T&C apply</p>
+              <p class="text-primary">Shop Deals <a class="text-secondary mx-2">|</a> Shop All</p>
+            </div>
+          </div>
+          <div class="col-md-6 my-md-auto">
+            <img src="images/laptop2.webp" alt="" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row mt-3">
+      <div class="col-md-6 text-center my-auto">
+        <h1 class="display-4">Dell Support</h1>
+        <p>Get your question answered</p>
+      </div>
+      <div class="col-md-6 mt-3">
+        <div class="row ">
+          <div class="col-2 text-end icon">
+            <i class="bi bi-headset text-primary"></i>
+
+          </div>
+          <div class="col-10">
+            <h4 class="text-primary">Contact Support</h4>
+            <p>Let us assist you with any product or service questions</p>
+            <hr>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 text-end icon">
+            <i class="bi bi-arrow-up-right-circle text-primary"></i>
+          </div>
+          <div class="col-10">
+            <h4 class="text-primary">Warranty and Contracts</h4>
+            <p>Check Warranty of the products</p>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2 text-end icon">
+            <i class="bi bi-chat-left-text text-primary"></i>
+          </div>
+          <div class="col-10">
+            <h4 class="text-primary">Product Support</h4>
+            <p>Let us assist you with any product or service questions</p>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2 text-end icon">
+            <i class="bi bi-gear text-primary"></i>
+          </div>
+          <div class="col-10">
+            <h4 class="text-primary">Drivers and downloads</h4>
+            <p>Let us assist you with any product or service questions</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-light">
+    <div class="row justify-content-center pt-2">
+      <div class="col-md-12">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative justify-content-end">
+          <div class="col-md-6 my-md-auto">
+            <img src="images/laptop3.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col p-4 my-auto position-static text-center ps-4">
+
+
+            <h3 class="mb-3">Alienware M15 R7 </h3>
+            <p style="font-size: 28px;">Alienware Most Powerful 15-Inch Laptop Ever
+            </p>
+            <p style="font-size: 19px;" class="text-black">Introducing upto 170 watts* of pure performance power
+            </p>
+            <div class="mb-4 px-lg-5 px-sm-1 mt-4">
+
+              <p>*Availableon configuration with NVIDIA@ GeForce RTX" 3070 Ti or 3080 Ti graphics</p>
+              <p class="text-primary">Start Gaming <a class="text-secondary mx-2">|</a> Learn More</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center pt-2">
+      <div class="col-md-12">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative justify-content-end">
+
+          <div class="col p-4 my-auto position-static text-center ps-4">
+
+
+            <h5 class="mb-3">PREMIUM SERVERS </h5>
+
+            <p style="font-size: 30px;">Productivity has a Name
+            </p>
+            <div class="mb-4 px-lg-5 px-sm-1 mt-4">
+
+              <h5 style="font-size: 18px; line-height: 28px;">The right server scales seamlessly to meet your growing
+                needs while easing<br> your ever-increasing IT complexity.</p>
+                <p class="text-primary">Shop All <a class="text-secondary mx-2">|</a> Learn More</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-md-auto">
+            <img src="images/laptop4.webp" alt="" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5 bg-light">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-4">Dell Small Business Advisor</h1>
+        <p>Expertise. Convenience. Quality Support.</p>
+        <p class="text-primary">Nearn More <a class="text-secondary mx-2">|</a> Chat Now</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center pt-2">
+      <div class="col-md-12">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative justify-content-end">
+          <div class="col-md-6 mx-auto my-md-auto">
+            <img src="images/laptop5.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col p-4 my-auto position-static text-center ps-4">
+
+
+            <h3 class="mb-3">EVERYDAY OFFICE ESSENTIALS </h3>
+            <p style="font-size: 30px;">Power Electronics & Accessories
+            </p>
+            <div class="mb-4 px-lg-5 px-sm-1 mt-4">
+
+              <h5 style="font-size: 18px; line-height: 28px;">The right server scales seamlessly to meet your growing
+                needs while easing<br> your ever-increasing IT complexity.</p>
+                <p class="text-primary">For Home <a class="text-secondary mx-2">|</a> For Business</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-2 bg-light">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-4">In Stock for Fast Delivery</h1>
+        <p>Shop and save with in stock and ready to go laptops</p>
+        <h6 class="text-primary">Explore Now</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center pt-2">
+      <div class="col-md-12">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative justify-content-end">
+
+          <div class="col p-4 my-auto position-static text-center ps-4">
+
+
+            <h3 class="mb-3">OPTIPLEX DESKTOPS </h3>
+            <p style="font-size: 28px;">Mighty Performance. Compact Design.
+            </p>
+            <div class="mb-4 px-lg-5 px-sm-1 mt-4">
+
+              <h5 style="font-size: 16px; line-height: 28px;">Take your business ahead with powerfull new tech. Now with
+                no cost EMI & more*.</p>
+                <p class="text-primary">Shop Now <a class="text-secondary mx-2">|</a> Learn More</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 my-md-auto">
+            <img src="images/laptop6.webp" alt="" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-light">
+    <div class="row justify-content-center pt-2">
+      <div class="col-md-12">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 position-relative justify-content-end">
+          <div class="col-md-6 my-md-auto">
+            <img src="images/laptop7.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col p-3 my-auto position-static text-center ps-4">
+
+
+            <h5 class="mb-3">POWERSTORE </h5>
+            <p style="font-size: 32px;">The Future of Storage is Now
+            </p>
+            <div class="mb-2 px-lg-5 px-sm-1 mt-4">
+
+              <p style="font-size: 22px;">Future proof intelligent storage that redefines performance</p>
+              <p class="text-primary">Shop Now <a class="text-secondary mx-2">|</a> Learn More</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-1">
+    <div class="row">
+      <div class="col-md-6 text-center bright">
+        <div class="row">
+          <h5 class="mb-3 text-primary">BACK TO SCHOOL </h5>
+          <p style="font-size: 30px;">Take Learning to NEW Heights
+          </p>
+          <div class="mb-4 px-lg-5 px-sm-1 mt-1">
+            <p style="font-size: 22px;">Explore immersive learning with instant discount upto rs 5,000 on
+              UPI/Net-banking and no-cost EMI.</p>
+            <p class="text-primary">For Home</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 my-md-auto">
+            <img src="images/laptop8.webp" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <div class="row">
+          <h5 class="mb-3 text-primary">RETURN TO THE OFFICE </h5>
+          <p style="font-size: 30px;">Collaborate with Ease
+          </p>
+          <div class="mb-4 px-lg-5 px-sm-1 mt-1">
+            <p style="font-size: 22px;">Supercharge productivity and security with no cost EMI, headset & more. *T&C
+              apply</p>
+            <p class="text-primary">For Business</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 my-md-2">
+            <img src="images/laptop9.webp" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid bg-light mt-3 py-5">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <p style="font-size: 22px;">We are Dell Technologies</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+
+      <div class="col-lg-5 text-sm-center text-md-start bg-white me-lg-4 shadow mt-2 pt-3">
+        <p>What We Do</p>
+        <hr>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-5 col-sm-10">
+            <img src="images/girl.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-8 col-sm-11">
+            <p>Our end-to-end solutions help and support you build a better tomorrow</p>
+            <p class="text-primary">Learn More</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 text-sm-center text-md-start bg-white shadow mt-2 pt-3">
+        <p>Customer Success Stories</p>
+        <hr>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-5 col-sm-10">
+            <img src="images/vodafone.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-8 col-sm-11">
+            <p>Vodafone Business: leading its customers towards sustainable innovation</p>
+            <p class="text-primary">Learn More</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-5 text-sm-center text-md-start bg-white me-lg-4 shadow mt-2 pt-3">
+        <p>New Trailblazers Podcast</p>
+        <hr>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-5 col-sm-10">
+            <img src="images/hear.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-8 col-sm-11">
+            <p>Hear how technology is helping us predict and handle our biggest emergencies like never before.</p>
+            <p class="text-primary">Learn More</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 text-sm-center text-md-start bg-white shadow mt-2 pt-3">
+        <p>Digital Inclusion</p>
+        <hr>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-5 col-sm-10">
+            <img src="images/technology.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-8 col-sm-11">
+            <p>vodafone Business: leading its customers towards sustainable innovation</p>
+            <p class="text-primary">Learn More</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container-fluid last_box py-5">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-lg-12 col-md-12">
+          <div class="row">
+            <div class="col-lg-3 text-start">
+              <div class="fs-4">
+                <i class="bi bi-globe"></i>
+                <span>IN/EN</span>
+                <i class="bi bi-chevron-down"></i>
+              </div>
+              <div class="text-start small-text-2 mt-3">
+                <p>Site Map</p>
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Account</li>
+                  <li class="small-text">My Account</li>
+                  <li class="small-text">Oyher Status</li>
+                  <li class="small-text">My Products</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Support</li>
+                  <li class="small-text">Support Home</li>
+                  <li class="small-text">Contact Support</li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Connect with Us</li>
+                  <li class="small-text">
+                    Community
+                  </li>
+                  <li class="small-text">
+                    Contact Us
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-start">
+        <div class="col-lg-12 col-md-12">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Our Offerings</li>
+                  <li class="small-text">APEX</li>
+                  <li class="small-text">Products</li>
+                  <li class="small-text">Solutions</li>
+                  <li class="small-text">Services</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Our Company</li>
+                  <li class="small-text">Who We Are</li>
+                  <li class="small-text">Dell Technologies Capital</li>
+                  <li class="small-text">Investors</li>
+                  <li class="small-text">Newsroom</li>
+                  <li class="small-text">Perspectives</li>
+                  <li class="small-text">Recycling</li>
+                  <li class="small-text">Social Impact</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Our Partners</li>
+                  <li class="small-text">Support Home</li>
+                  <li class="small-text">Contact Support</li>
+                  <li class="small-text">Contact Support</li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Resources</li>
+                  <li class="small-text">
+                    Community
+                  </li>
+                  <li class="small-text">
+                    Contact Us
+                  </li>
+                  <li class="small-text">Dell Technologies Capital</li>
+                  <li class="small-text">Investors</li>
+                  <li class="small-text">Newsroom</li>
+                  <li class="small-text">Perspectives</li>
+                  <li class="small-text">Recycling</li>
+                  <li class="small-text">Social Impact</li>
+
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-start">
+        <div class="col-lg-8 col-md-12" style="white-space: nowrap;">
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Dell.com</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Dell Technologies</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="fw-bold">Premier</li>
+
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-start">
+        <div class="col-lg-8 col-md-12" style="white-space: nowrap;">
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="small-text"> &#169; 2022 Dell</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="small-text">Terms of Sale</li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="small-text">Privacy Statement</li>
+
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="text">
+                <ul class="list-unstyled padd">
+                  <li class="small-text">Legal & Regulatory</li>
+
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
